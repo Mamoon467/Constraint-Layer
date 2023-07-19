@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn With ZeeSign Tech"
+        android:textSize="34sp"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/btnSigin"
+        android:layout_alignStart="@id/btnSigin"
+        android:layout_alignLeft="@id/btnHello"
+        android:layout_alignEnd="@id/btnHello"
+        android:layout_alignRight="@id/btnSigin"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:rotationX="-41"
+        android:rotationY="37"
+        android:text="SignUp"
+        android:textColor="#E9AF0F0F"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/btnSigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:rotation="-25"
+        android:rotationX="17"
+        android:rotationY="335"
+        android:text="SigIn"
+        android:textColor="#E9AF0F0F"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+</RelativeLayout>
